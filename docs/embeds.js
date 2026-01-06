@@ -1,6 +1,6 @@
 (async function () {
   try {
-    const res = await fetch("./vega/income-vs-trees.vl.json");
+    const res = await fetch("./income-vs-trees.vl.json");
     if (!res.ok) throw new Error(`Spec fetch failed: ${res.status}`);
     const spec = await res.json();
 
