@@ -167,6 +167,7 @@ body {
   font-size: 22px;
   margin-bottom: 0px;
   font-weight: 600;
+  line-height: 1.4;
 }
 
 .overlay-content p {
@@ -174,7 +175,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.4;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 .grid-item:hover .overlay {
